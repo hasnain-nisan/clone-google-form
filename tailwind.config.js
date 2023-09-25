@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        logo: ['Croissant One', 'cursive'], // Replace 'CustomFont' with your font's name
+      },
+    },
   },
   plugins: [],
 }
